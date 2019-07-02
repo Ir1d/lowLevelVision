@@ -6,7 +6,7 @@
 - [x] [ICLR 2019](https://openreview.net/group?id=ICLR.cc/2019/Conference)
 - [x] [ICML 2019](https://icml.cc/Conferences/2019/Schedule?type=Poster)
 - [x] [CVPR 2019](http://openaccess.thecvf.com/CVPR2019_search.py) 
-- [x] [AAAi 2019](https://aaai.org/Conferences/AAAI-19/wp-content/uploads/2018/11/AAAI-19_Accepted_Papers.pdf)
+- [x] [AAAI 2019](https://aaai.org/Conferences/AAAI-19/wp-content/uploads/2018/11/AAAI-19_Accepted_Papers.pdf)
 - [ ] BMVC (to be released)
 - [ ] ACM MM (to be released)
 - [ ] ICIP (to be released)
