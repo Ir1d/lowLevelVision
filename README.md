@@ -2,15 +2,17 @@
 
 ## TODO
 
-- [ ] [IJCAI 2019](https://www.ijcai19.org/accepted-papers.html)
+- [x] [IJCAI 2019](https://www.ijcai19.org/accepted-papers.html)
 - [ ] [ICLR 2019](https://openreview.net/group?id=ICLR.cc/2019/Conference)
-- [ ] [ICML 2019](https://icml.cc/Conferences/2019/Schedule?type=Poster)
+- [x] [ICML 2019](https://icml.cc/Conferences/2019/Schedule?type=Poster)
 - [x] [CVPR 2019](http://openaccess.thecvf.com/CVPR2019_search.py) 
 - [ ] bmvc (to be released)
 - [ ] acmmm (to be released)
 - [ ] ICIP (to be released)
 
-## denoising
+`[Note]`: some IJCAI accepted papers are not available at the moment
+
+## Denoising
 
 (keywords: denoise, noise, denoising)
 
@@ -26,7 +28,11 @@
   - Tim Brooks, Ben Mildenhall, Tianfan Xue, Jiawen Chen, Dillon Sharlet, Jonathan T. Barron
 - Model-Blind Video Denoising via Frame-To-Frame Training
   - Thibaud Ehret, Axel Davy, Jean-Michel Morel, Gabriele Facciolo, Pablo Arias
-- 
+  
+### ICML
+
+- Noise2Self: Blind Denoising by Self-Supervision
+  - Joshua Batson, Loic Royer
 
 ## Inpainting
 
@@ -47,6 +53,15 @@
 - Coordinate-Based Texture Inpainting for Pose-Guided Human Image Generation
   - Artur Grigorev, Artem Sevastopolsky, Alexander Vakhitov, Victor Lempitsky
 
+### IJCAI
+
+- Coarse-to-Fine Image Inpainting via Region-wise Convolutions and Non-Local Correlation
+  - Yuqing Ma, Xianglong Liu, Shihao Bai, Lei Wang, Dailan He, Aishan Liu
+- Generative Image Inpainting with Submanifold Alignment
+  - Ang Li, Jianzhong Qi, Rui Zhang, Xingjun Ma, Ramamohanarao Kotagiri
+- MUSICAL: Multi-Scale Image Contextual Attention Learning for Inpainting
+  - Ning Wang, Jingyuan Li, Lefei Zhang, Bo Du
+
 ## Lowlight Enhancement
 
 (keywords: lowlight, underexposed)
@@ -66,6 +81,12 @@
   - Yanyun Qu, Yizi Chen, Jingying Huang, Yuan Xie
 - PMS-Net: Robust Haze Removal Based on Patch Map for Single Images
   - Wei-Ting Chen, Jian-Jiun Ding, Sy-Yen Kuo
+
+### IJCAI
+
+- Dual-Path in Dual-Path Network for Single Image Dehazing
+  - Aiping Yang, Haixin Wang, Zhong Ji, Yanwei Pang, Ling Shao
+
 
 ## Derain 
 
