@@ -6,9 +6,11 @@
 - [ ] [ICLR 2019](https://openreview.net/group?id=ICLR.cc/2019/Conference)
 - [x] [ICML 2019](https://icml.cc/Conferences/2019/Schedule?type=Poster)
 - [x] [CVPR 2019](http://openaccess.thecvf.com/CVPR2019_search.py) 
+- [x] [AAAi 2019](https://aaai.org/Conferences/AAAI-19/wp-content/uploads/2018/11/AAAI-19_Accepted_Papers.pdf)
 - [ ] bmvc (to be released)
 - [ ] acmmm (to be released)
 - [ ] ICIP (to be released)
+- [ ] ICME (to be released)
 
 `[Note]`: some IJCAI accepted papers are not available at the moment
 
@@ -92,6 +94,13 @@
 - MUSICAL: Multi-Scale Image Contextual Attention Learning for Inpainting
   - Ning Wang, Jingyuan Li, Lefei Zhang, Bo Du
 
+### AAAI
+
+- CISI-net: Explicit latent content inference and imitated style rendering for image inpainting
+  - Jing Xiao, liang liao, Qiegen Liu, Ruimin Hu
+-  Video Inpainting by Jointly Learning Temporal Structure and Spatial Details
+  - Chuan Wang, Haibin Huang, Xiaoguang Han, Jue Wang
+
 ### arxiv
 
 - Coherent Semantic Attention for Image Inpainting
@@ -111,7 +120,7 @@
 
 ## Lowlight Enhancement
 
-(keywords: lowlight, underexposed, illumination)
+(keywords: lowlight, underexposed, illumination, contrast enhancement)
 
 ### CVPR
 
@@ -205,6 +214,11 @@
   - Siyuan Li, Iago Breno Araujo, Wenqi Ren, Zhangyang Wang, Eric K. Tokuda, Roberto Hirata Junior, Roberto Cesar-Junior, Jiawan Zhang, Xiaojie Guo, Xiaochun Cao
 - Progressive Image Deraining Networks: A Better and Simpler Baseline
   - Dongwei Ren, Wangmeng Zuo, Qinghua Hu, Pengfei Zhu, Deyu Meng
+
+### AAAI
+
+- RR-GAN: Single Image Rain Removal Without Paired Information
+  - Hongyuan Zh, Xi Peng, Joey Tianyi Zhou, Songfan Yang, Vijay Chandrasekhar, Liyuan Li, Joo-Hwee Lim
 
 ### arxiv
 
