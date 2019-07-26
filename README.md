@@ -1,5 +1,7 @@
 # A low-level vision paperReading List for 2019
 
+This list is maintained by: Dejia Xu [STRUCT](http://39.96.165.147) PKU (PI: Prof. Jiaying Liu)
+
 ## TODO
 
 - [x] [IJCAI 2019](https://www.ijcai19.org/accepted-papers.html)
