@@ -2,6 +2,8 @@
 
 This list is maintained by: Dejia Xu [[STRUCT]](http://39.96.165.147) PKU (PI: Prof. Jiaying Liu)
 
+The following papers are related to low-level vision, including deblur, dehaze, denoise, derain, inpainting, super resolution, lowlight enhancement and image restoration.
+
 ## TODO
 
 - [x] [IJCAI 2019](https://www.ijcai19.org/accepted-papers.html)
@@ -13,8 +15,13 @@ This list is maintained by: Dejia Xu [[STRUCT]](http://39.96.165.147) PKU (PI: P
 - [ ] ACM MM (to be released)
 - [ ] ICIP (to be released)
 - [ ] ICME (to be released)
+- [ ] [ICCV 2019](http://openaccess.thecvf.com/ICCV2019.py)
 
 `[Note]`: some IJCAI accepted papers are not available at the moment
+
+## Workshops
+
+
 
 ## Denoising
 
@@ -37,6 +44,27 @@ This list is maintained by: Dejia Xu [[STRUCT]](http://39.96.165.147) PKU (PI: P
 
 - Noise2Self: Blind Denoising by Self-Supervision
   - Joshua Batson, Loic Royer
+
+### ICCV
+
+- Fully Convolutional Pixel Adaptive Image Denoiser
+  - Sungmin Cha, Taesup Moon
+- CIIDefence: Defeating Adversarial Attacks by Fusing Class-Specific Image Inpainting and Image Denoising
+  - Puneet Gupta, Esa Rahtu
+- Joint Demosaicking and Denoising by Fine-Tuning of Bursts of Raw Images
+  - Thibaud Ehret, Axel Davy, Pablo Arias, Gabriele Facciolo
+- Self-Supervised Deep Depth Denoising
+  - Vladimiros Sterzentsenko, Leonidas Saroglou, Anargyros Chatzitofis, Spyridon Thermos, Nikolaos Zioulis, Alexandros Doumanoglou, Dimitrios Zarpalas, Petros Daras
+- Self-Guided Network for Fast Image Denoising
+  - Shuhang Gu, Yawei Li, Luc Van Gool, Radu Timofte
+- Real Image Denoising With Feature Attention
+  - Saeed Anwar, Nick Barnes
+- NOTE-RCNN: NOise Tolerant Ensemble RCNN for Semi-Supervised Object Detection
+  - Jiyang Gao, Jiang Wang, Shengyang Dai, Li-Jia Li, Ram Nevatia
+- Noise Flow: Noise Modeling With Conditional Normalizing Flows
+  - Abdelrahman Abdelhamed, Marcus A. Brubaker, Michael S. Brown
+- Enhancing Low Light Videos by Exploring High Sensitivity Camera Noise
+  - Wei Wang, Xin Chen, Cheng Yang, Xiang Li, Xuemei Hu, Tao Yue
 
 ### arxiv
 
@@ -103,6 +131,33 @@ This list is maintained by: Dejia Xu [[STRUCT]](http://39.96.165.147) PKU (PI: P
 -  Video Inpainting by Jointly Learning Temporal Structure and Spatial Details
   - Chuan Wang, Haibin Huang, Xiaoguang Han, Jue Wang
 
+### ICCV
+
+- Coherent Semantic Attention for Image Inpainting
+  - Hongyu Liu, Bin Jiang, Yi Xiao, Chao Yang
+- StructureFlow: Image Inpainting via Structure-Aware Appearance Flow
+  - Yurui Ren, Xiaoming Yu, Ruonan Zhang, Thomas H. Li, Shan Liu, Ge Li
+- Vision-Infused Deep Audio Inpainting
+  - Hang Zhou, Ziwei Liu, Xudong Xu, Ping Luo, Xiaogang Wang
+- An Internal Learning Approach to Video Inpainting
+  - Haotian Zhang, Long Mai, Ning Xu, Zhaowen Wang, John Collomosse, Hailin Jin
+- Copy-and-Paste Networks for Deep Video Inpainting
+  - Sungho Lee, Seoung Wug Oh, DaeYeun Won, Seon Joo Kim
+- Free-Form Image Inpainting With Gated Convolution
+  - Jiahui Yu, Zhe Lin, Jimei Yang, Xiaohui Shen, Xin Lu, Thomas S. Huang
+- FiNet: Compatible and Diverse Fashion Image Inpainting
+  - Xintong Han, Zuxuan Wu, Weilin Huang, Matthew R. Scott, Larry S. Davis
+- Progressive Reconstruction of Visual Structure for Image Inpainting
+  - Jingyuan Li, Fengxiang He, Lefei Zhang, Bo Du, Dacheng Tao
+- Human Motion Prediction via Spatio-Temporal Inpainting
+  - Alejandro Hernandez, Jurgen Gall, Francesc Moreno-Noguer
+- Localization of Deep Inpainting Using High-Pass Fully Convolutional Network
+  - Haodong Li, Jiwu Huang
+- Image Inpainting With Learnable Bidirectional Attention Maps
+  - Chaohao Xie, Shaohui Liu, Chao Li, Ming-Ming Cheng, Wangmeng Zuo, Xiao Liu, Shilei Wen, Errui Ding
+- Free-Form Video Inpainting With 3D Gated Convolution and Temporal PatchGAN
+  - Ya-Liang Chang, Zhe Yu Liu, Kuan-Ying Lee, Winston Hsu
+
 ### arxiv
 
 - Coherent Semantic Attention for Image Inpainting
@@ -122,12 +177,25 @@ This list is maintained by: Dejia Xu [[STRUCT]](http://39.96.165.147) PKU (PI: P
 
 ## Lowlight Enhancement
 
-(keywords: lowlight, underexposed, illumination, contrast enhancement)
+(keywords: lowlight, underexposed, illumination, contrast enhancement, low light, dark)
 
 ### CVPR
 
 - Underexposed Photo Enhancement Using Deep Illumination Estimation
   - Ruixing Wang, Qing Zhang, Chi-Wing Fu, Xiaoyong Shen, Wei-Shi Zheng, Jiaya Jia
+
+### ICCV
+
+- A Dataset of Multi-Illumination Images in the Wild
+  - Lukas Murmann, Michael Gharbi, Miika Aittala, Fredo Durand
+- No Fear of the Dark: Image Retrieval Under Varying Illumination Conditions
+  - Tomas Jenicek, Ondrej Chum
+- Enhancing Low Light Videos by Exploring High Sensitivity Camera Noise
+  - Wei Wang, Xin Chen, Cheng Yang, Xiang Li, Xuemei Hu, Tao Yue
+- Seeing Motion in the Dark
+  - Chen Chen, Qifeng Chen, Minh N. Do, Vladlen Koltun
+- Learning to See Moving Objects in the Dark
+  - Haiyang Jiang, Yinqiang Zheng
 
 ### arxiv
 
@@ -161,6 +229,16 @@ This list is maintained by: Dejia Xu [[STRUCT]](http://39.96.165.147) PKU (PI: P
 
 - Dual-Path in Dual-Path Network for Single Image Dehazing
   - Aiping Yang, Haixin Wang, Zhong Ji, Yanwei Pang, Ling Shao
+
+### ICCV
+- Deep Multi-Model Fusion for Single-Image Dehazing
+  - Zijun Deng, Lei Zhu, Xiaowei Hu, Chi-Wing Fu, Xuemiao Xu, Qing Zhang, Jing Qin, Pheng-Ann Heng
+- Learning Deep Priors for Image Dehazing
+  - Yang Liu, Jinshan Pan, Jimmy Ren, Zhixun Su
+- LAP-Net: Level-Aware Progressive Network for Image Dehazing
+  - Yunan Li, Qiguang Miao, Wanli Ouyang, Zhenxin Ma, Huijuan Fang, Chao Dong, Yining Quan
+- GridDehazeNet: Attention-Based Multi-Scale Network for Image Dehazing
+  - Xiaohong Liu, Yongrui Ma, Zhihao Shi, Jun Chen
 
 ### arxiv
 
@@ -222,6 +300,13 @@ This list is maintained by: Dejia Xu [[STRUCT]](http://39.96.165.147) PKU (PI: P
 - RR-GAN: Single Image Rain Removal Without Paired Information
   - Hongyuan Zh, Xi Peng, Joey Tianyi Zhou, Songfan Yang, Vijay Chandrasekhar, Liyuan Li, Joo-Hwee Lim
 
+### ICCV
+
+- RainFlow: Optical Flow Under Rain Streaks and Rain Veiling Effect
+  - Ruoteng Li, Robby T. Tan, Loong-Fah Cheong, Angelica I. Aviles-Rivero, Qingnan Fan, Carola-Bibiane Schonlieb
+- Physics-Based Rendering for Improving Robustness to Rain
+  - Shirsendu Sukanta Halder, Jean-Francois Lalonde, Raoul de Charette
+
 ### arxiv
 
 - Morphological Networks for Image De-raining
@@ -259,6 +344,15 @@ This list is maintained by: Dejia Xu [[STRUCT]](http://39.96.165.147) PKU (PI: P
   - Masanori Suganuma, Xing Liu, Takayuki Okatani
 - Modulating Image Restoration With Continual Levels via Adaptive Feature Modification Layers
   - Jingwen He, Chao Dong, Yu Qiao
+
+### ICCV
+
+- CFSNet: Toward a Controllable Feature Space for Image Restoration
+  - Wei Wang, Ruiming Guo, Yapeng Tian, Wenming Yang
+- Fast Image Restoration With Multi-Bin Trainable Linear Units
+  - Shuhang Gu, Wen Li, Luc Van Gool, Radu Timofte
+- Restoration of Non-Rigidly Distorted Underwater Images Using a Combination of Compressive Sensing and Local Polynomial Image Representations
+  - Jerin Geo James, Pranay Agrawal, Ajit Rajwade
 
 ### arxiv
 
@@ -305,6 +399,37 @@ This list is maintained by: Dejia Xu [[STRUCT]](http://39.96.165.147) PKU (PI: P
   - Tao Dai, Jianrui Cai, Yongbing Zhang, Shu-Tao Xia, Lei Zhang
 - Hyperspectral Image Super-Resolution With Optimized RGB Guidance
   - Ying Fu, Tao Zhang, Yinqiang Zheng, Debing Zhang, Hua Huang
+
+### ICCV
+
+- Embedded Block Residual Network: A Recursive Restoration Model for Single-Image Super-Resolution
+  - Yajun Qiu, Ruxin Wang, Dapeng Tao, Jun Cheng
+- Evaluating Robustness of Deep Image Super-Resolution Against Adversarial Attacks
+  - Jun-Ho Choi, Huan Zhang, Jun-Hyuk Kim, Cho-Jui Hsieh, Jong-Seok Lee
+- Kernel Modeling Super-Resolution on Real Low-Resolution Images
+  - Ruofan Zhou, Sabine Susstrunk
+- SROBB: Targeted Perceptual Loss for Single Image Super-Resolution
+  - Mohammad Saeed Rad, Behzad Bozorgtabar, Urs-Viktor Marti, Max Basler, Hazim Kemal Ekenel, Jean-Philippe Thiran
+- Wavelet Domain Style Transfer for an Effective Perception-Distortion Tradeoff in Single Image Super-Resolution
+  - Xin Deng, Ren Yang, Mai Xu, Pier Luigi Dragotti
+- Toward Real-World Single Image Super-Resolution: A New Benchmark and a New Model
+  - Jianrui Cai, Hui Zeng, Hongwei Yong, Zisheng Cao, Lei Zhang
+- RankSRGAN: Generative Adversarial Networks With Ranker for Image Super-Resolution
+  - Wenlong Zhang, Yihao Liu, Chao Dong, Yu Qiao
+- Progressive Fusion Video Super-Resolution Network via Exploiting Non-Local Spatio-Temporal Correlations
+  - Peng Yi, Zhongyuan Wang, Kui Jiang, Junjun Jiang, Jiayi Ma
+- Deep SR-ITM: Joint Learning of Super-Resolution and Inverse Tone-Mapping for 4K UHD HDR Applications
+  - Soo Ye Kim, Jihyong Oh, Munchurl Kim
+- Embedded Block Residual Network: A Recursive Restoration Model for Single-Image Super-Resolution
+  - Yajun Qiu, Ruxin Wang, Dapeng Tao, Jun Cheng
+- Perceptual Deep Depth Super-Resolution
+  - Oleg Voynov, Alexey Artemov, Vage Egiazarian, Alexander Notchenko, Gleb Bobrovskikh, Evgeny Burnaev, Denis Zorin
+- Two-Stream Action Recognition-Oriented Video Super-Resolution
+  - Haochen Zhang, Dong Liu, Zhiwei Xiong
+- Guided Super-Resolution As Pixel-to-Pixel Transformation
+  - Riccardo de Lutio, Stefano D'Aronco, Jan Dirk Wegner, Konrad Schindler
+- Better to Follow, Follow to Be Better: Towards Precise Supervision of Feature Super-Resolution for Small Object Detection
+  - Junhyug Noh, Wonho Bae, Wonhee Lee, Jinhwan Seo, Gunhee Kim
 
 ### arxiv
 
@@ -363,6 +488,15 @@ This list is maintained by: Dejia Xu [[STRUCT]](http://39.96.165.147) PKU (PI: P
   - Liyuan Pan, Richard Hartley, Miaomiao Liu, Yuchao Dai
 - Recurrent Neural Networks With Intra-Frame Iterations for Video Deblurring
   - Seungjun Nah, Sanghyun Son, Kyoung Mu Lee
+
+### ICCV
+
+- FAB: A Robust Facial Landmark Detection Framework for Motion-Blurred Videos
+  - Keqiang Sun, Wayne Wu, Tinghao Liu, Shuo Yang, Quan Wang, Qiang Zhou, Zuochang Ye, Chen Qian
+- Human-Aware Motion Deblurring
+  - Ziyi Shen, Wenguan Wang, Xiankai Lu, Jianbing Shen, Haibin Ling, Tingfa Xu, Ling Shao
+- Unconstrained Motion Deblurring for Dual-Lens Cameras
+  - M. R. Mahesh Mohan, Sharath Girish, A. N. Rajagopalan
 
 ### arxiv
 
