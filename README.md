@@ -18,7 +18,7 @@ A lot of interesting papers are not yet covered by me in the arxiv sections.
 - [x] [ICIP 2019](https://cmsworkshops.com/ICIP2019/Papers/TechnicalProgram_MS.asp)
 - [x] [ICME](https://www.icme2019.org/conf_schedule)
 - [x] [ICCV 2019](http://openaccess.thecvf.com/ICCV2019.py)
-- [ ] AAAI 2020
+- [x] [AAAI 2020](https://aaai.org/Conferences/AAAI-20/wp-content/uploads/2020/01/AAAI-20-Accepted-Paper-List.pdf)
 
 `[Note]`: 
 
@@ -97,6 +97,10 @@ A lot of interesting papers are not yet covered by me in the arxiv sections.
 ### ICME19
 
 - RESIDUAL DILATED NETWORK WITH ATTENTION FOR IMAGE BLIND DENOISING
+
+### AAAI20
+
+- When AWGN-based Denoiser Meets Real Noises
 
 ### arxiv
 
@@ -208,6 +212,9 @@ A lot of interesting papers are not yet covered by me in the arxiv sections.
 - IMAGE INPAINTING FOR RANDOM AREAS USING DENSE CONTEXT FEATURES
 - WEIGHTED SCHATTEN P-NORM MINIMIZATION WITH LOCAL AND NONLOCAL CONSTRAINTS FOR NOISY IMAGE COMPLETION
 
+### AAAI20
+
+- Learning to Incorporate Structure Knowledge for Image Inpainting
 
 ### arxiv
 
@@ -317,6 +324,12 @@ A lot of interesting papers are not yet covered by me in the arxiv sections.
 - VARIATIONAL REGULARIZED TRANSMISSION REFINEMENT FOR IMAGE DEHAZING
 - Feature Aggregation Convolution Network For Haze Removal
 
+### AAAI20
+
+- FD-GAN: Generative Adversarial Networks with Fusion-discriminator for Single Image Dehazing
+- FFA-Net: Feature Fusion Attention Network for Single Image Dehazing
+
+
 ### arxiv
 
 - FAMED-Net: A Fast and Accurate Multi-scale End-to-end Dehazing Network
@@ -410,6 +423,10 @@ A lot of interesting papers are not yet covered by me in the arxiv sections.
 
 - REMOVING RAIN IN VIDEOS: A LARGE-SCALE DATABASE AND A TWO-STREAM CONVLSTM AP- PROACH
 
+### AAAI20
+
+- Towards Scale-Free Rain Streak Removal via Self-Supervised Fractal Band Learning
+
 ### arxiv
 
 - Morphological Networks for Image De-raining
@@ -476,6 +493,18 @@ A lot of interesting papers are not yet covered by me in the arxiv sections.
 - Restoration of Non-Rigidly Distorted Underwater Images Using a Combination of Compressive Sensing and Local Polynomial Image Representations
   - Jerin Geo James, Pranay Agrawal, Ajit Rajwade
 
+
+### ICIP19
+
+- HIGH-DIMENSIONAL EMBEDDING DENOISING AUTOENCODING PRIOR FOR COLOR IMAGE RESTORATION
+- JOINT IMAGE RESTORATION AND MATCHING BASED ON HIERARCHICAL SPARSE REPRESENTATION
+- UNDERWATER IMAGE SYNTHESIS FROM RGB-D IMAGES AND ITS APPLICATION TO DEEP UNDERWATER IMAGE RESTORATION
+
+
+### AAAI20
+
+-  Scale-wise Convolution for Image Restoration
+
 ### arxiv
 
 - Space-variant Generalized Gaussian Regularization for Image Restoration
@@ -487,14 +516,8 @@ A lot of interesting papers are not yet covered by me in the arxiv sections.
 - Deep Likelihood Network for Image Restoration with Multiple Degradations
   - Yiwen Guo, Wangmeng Zuo, Changshui Zhang, Yurong Chen
 - Image Restoration by Combined Order Regularization with Optimal Spatial Adaptation
-  - Sanjay Viswanath, Simon de Beco, Maxime Dahan, Muthuvel Arigovindan
+- Sanjay Viswanath, Simon de Beco, Maxime Dahan, Muthuvel Arigovindan
 
-### ICIP19
-
-- HIGH-DIMENSIONAL EMBEDDING DENOISING AUTOENCODING PRIOR FOR COLOR IMAGE RESTORATION
-- JOINT IMAGE RESTORATION AND MATCHING BASED ON HIERARCHICAL SPARSE REPRESENTATION
-- UNDERWATER IMAGE SYNTHESIS FROM RGB-D IMAGES AND ITS APPLICATION TO DEEP UNDERWATER IMAGE RESTORATION
-- 
 
 ## Super Resolution
 
@@ -604,6 +627,10 @@ A lot of interesting papers are not yet covered by me in the arxiv sections.
 - RESIDUAL MAGNIFIER: A DENSE INFORMATION FLOW NETWORK FOR SUPER RESOLUTION
 - JOINTLY SOLVING DEBLURRING AND SUPER-RESOLUTION PROBLEMS WITH DUAL SUPER- VISED NETWORK
 
+### AAAI20
+
+- Facial Attribute Capsules for Noise Face Super Resolution
+
 ### arxiv
 
 - Densely Residual Laplacian Super-Resolution
@@ -688,6 +715,10 @@ A lot of interesting papers are not yet covered by me in the arxiv sections.
 
 - JOINTLY SOLVING DEBLURRING AND SUPER-RESOLUTION PROBLEMS WITH DUAL SUPER- VISED NETWORK
 - SCALE-AWARE DEEP NETWORK WITH HOLE CONVOLUTION FOR BLIND MOTION DEBLURRING
+
+### AAAI20
+
+- Learning to Deblur Face Images via Sketch Synthesis
 
 ### arxiv
 
