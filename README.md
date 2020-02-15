@@ -1,8 +1,8 @@
-# A low-level vision paperReading List for 2019
+# A low-level vision paperReading List for 2019 & 2020
 
-This list is maintained by: Dejia Xu [[STRUCT]](http://39.96.165.147) PKU (PI: Prof. Jiaying Liu)
+The following papers are related to low-level vision, including deblur, dehaze, denoise, derain, inpainting, super resolution, lowlight enhancement, demoireing, reflection removal and image restoration.
 
-The following papers are related to low-level vision, including deblur, dehaze, denoise, derain, inpainting, super resolution, lowlight enhancement and image restoration.
+Pull Requests are welcomed. Feel free to add related papers you like to this list. A lot of interesting papers are missed by me in the arxiv sections.
 
 ## TODO
 
@@ -11,17 +11,26 @@ The following papers are related to low-level vision, including deblur, dehaze, 
 - [x] [ICML 2019](https://icml.cc/Conferences/2019/Schedule?type=Poster)
 - [x] [CVPR 2019](http://openaccess.thecvf.com/CVPR2019_search.py) 
 - [x] [AAAI 2019](https://aaai.org/Conferences/AAAI-19/wp-content/uploads/2018/11/AAAI-19_Accepted_Papers.pdf)
-- [ ] BMVC (to be released)
-- [ ] ACM MM (to be released)
-- [ ] ICIP (to be released)
+- [x] [BMVC 2019](https://bmvc2019.org/programme/detailed-programme/#/)
+- [x] [ACM MM 2019](https://2019.acmmm.org/accepted-papers/index.html)
+- [ ] [ICIP 2019](https://cmsworkshops.com/ICIP2019/Papers/TechnicalProgram_MS.asp)
 - [ ] ICME (to be released)
-- [ ] [ICCV 2019](http://openaccess.thecvf.com/ICCV2019.py)
+- [x] [ICCV 2019](http://openaccess.thecvf.com/ICCV2019.py)
+- [ ] AAAI 2020
 
-`[Note]`: some IJCAI accepted papers are not available at the moment
+`[Note]`: 
+
+- some IJCAI accepted papers are not available at the moment
+- arxiv sections are updated on 2019.7.2
+- only titles are maintained for new papers
 
 ## Workshops
 
-
+- [NTIRE 2018](http://openaccess.thecvf.com/CVPR2018_workshops/CVPR2018_W13.py)
+- [NTIRE 2019](http://openaccess.thecvf.com/CVPR2019_workshops/CVPR2019_NTIRE.py)
+- [AIM 2019](http://openaccess.thecvf.com/ICCV2019_workshops/ICCV2019_AIM.py)
+- [UG2+ 2019](http://openaccess.thecvf.com/CVPR2019_workshops/CVPR2019_UG2_Prize_Challenge.py)
+- [Vision for All Seasons Bad Weather and Nighttime 2019](http://openaccess.thecvf.com/CVPR2019_workshops/CVPR2019_Vision_for_All_Seasons_Bad_Weather_and_Nighttime.py)
 
 ## Denoising
 
@@ -96,9 +105,25 @@ The following papers are related to low-level vision, including deblur, dehaze, 
   - Xiangyu Xu, Muchen Li, Wenxiu Sun
 
 
+### ICIP
+
+- Enhancing denoised image via fusion with a noisy image
+- FULL-REFERENCE METRIC ADAPTIVE IMAGE DENOISING
+- IMAGE DENOISING WITH GRAPH-CONVOLUTIONAL NEURAL NETWORKS
+- ADAPTIVELY TUNING A CONVOLUTIONAL NEURAL NETWORK BY GATING PROCESS FOR IMAGE DENOISING
+- DVDnet: A Fast Network for Deep Video Denoising
+- MUTUAL NOISE ESTIMATION ALGORITHM FOR VIDEO DENOISING
+- COLOR IMAGE DENOISING USING QUATERNION ADAPTIVE NON-LOCAL COUPLED MEANS
+- MULTI-KERNEL PREDICTION NETWORKS FOR DENOISING OF BURST IMAGES
+- Simultaneous Nonlocal Self-Similarity Prior for Image Denoising
+- EDCNN: A NOVEL NETWORK FOR IMAGE DENOISING
+- A NON-LOCAL CNN FOR VIDEO DENOISING
+- ACCELERATING REDUNDANT DCT FILTERING FOR DEBLURRING AND DENOISING
+- NONLOCALITY-REINFORCED CONVOLUTIONAL NEURAL NETWORKS FOR IMAGE DENOISING
+
 ## Inpainting
 
-(keywords: inpainting)
+(keywords: inpainting, completion)
 
 ### CVPR
 
@@ -158,6 +183,25 @@ The following papers are related to low-level vision, including deblur, dehaze, 
 - Free-Form Video Inpainting With 3D Gated Convolution and Temporal PatchGAN
   - Ya-Liang Chang, Zhe Yu Liu, Kuan-Ying Lee, Winston Hsu
 
+### BMVC
+
+- Base-Detail Image Inpainting
+- Learnable Gated Temporal Shift Module for Free-form Video Inpainting
+
+### ACM MM
+
+- Progressive Image Inpainting with Full-Resolution Residual Network
+- GAIN: Gradient Augmented Inpainting Network for Irregular Holes
+- Single-shot Semantic Image Inpainting with Densely Connected Generative
+- Deep Fusion Network for Image Completion
+
+### ICIP
+
+- FASTER UNSUPERVISED SEMANTIC INPAINTING: A GAN BASED APPROACH
+- IMAGE INPAINTING FOR RANDOM AREAS USING DENSE CONTEXT FEATURES
+- WEIGHTED SCHATTEN P-NORM MINIMIZATION WITH LOCAL AND NONLOCAL CONSTRAINTS FOR NOISY IMAGE COMPLETION
+
+
 ### arxiv
 
 - Coherent Semantic Attention for Image Inpainting
@@ -196,6 +240,22 @@ The following papers are related to low-level vision, including deblur, dehaze, 
   - Chen Chen, Qifeng Chen, Minh N. Do, Vladlen Koltun
 - Learning to See Moving Objects in the Dark
   - Haiyang Jiang, Yinqiang Zheng
+
+
+### BMVC
+
+- BIRD: Learning Binary and Illumination Robust Descriptor for Face Recognition
+
+### ACM MM
+
+- Progressive Retinex: Mutually Reinforced Illumination-Noise Perception Network for Low-Light Image Enhancement
+- Adaptive Feature Fusion via Graph Neural Network for Person Re-identification Illumination-Invariant Person Re-Identification
+- Kindling the Darkness: A Practical Low-light Image Enhancer
+
+### ICIP
+
+- WHAT'S THERE IN THE DARK
+- LLRNET: A MULTISCALE SUBBAND LEARNING APPROACH FOR LOW LIGHT IMAGE RESTORATION
 
 ### arxiv
 
@@ -239,6 +299,16 @@ The following papers are related to low-level vision, including deblur, dehaze, 
   - Yunan Li, Qiguang Miao, Wanli Ouyang, Zhenxin Ma, Huijuan Fang, Chao Dong, Yining Quan
 - GridDehazeNet: Attention-Based Multi-Scale Network for Image Dehazing
   - Xiaohong Liu, Yongrui Ma, Zhihao Shi, Jun Chen
+
+### ICIP
+
+- WAVELET U-NET AND THE CHROMATIC ADAPTATION TRANSFORM FOR SINGLE IMAGE DEHAZING
+- Towards Unsupervised Single Image Dehazing with Deep Learning
+- Convolutional AutoEncoder for Single Image Dehazing
+- SEQUENTIALLY REFINED SPATIAL AND CHANNEL-WISE FEATURE AGGREGATION IN ENCODER-DECODER NETWORK FOR SINGLE IMAGE DEHAZING
+- DENSE-HAZE: A BENCHMARK FOR IMAGE DEHAZING WITH DENSE-HAZE AND HAZE-FREE IMAGES
+- VARIATIONAL REGULARIZED TRANSMISSION REFINEMENT FOR IMAGE DEHAZING
+- Feature Aggregation Convolution Network For Haze Removal
 
 ### arxiv
 
@@ -307,6 +377,28 @@ The following papers are related to low-level vision, including deblur, dehaze, 
 - Physics-Based Rendering for Improving Robustness to Rain
   - Shirsendu Sukanta Halder, Jean-Francois Lalonde, Raoul de Charette
 
+
+### BMVC
+
+- Residual Multiscale Based Single Image Deraining
+
+### ACM MM
+
+- Single Image Deraining via Recurrent Hierarchy Enhancement Network
+- Gradual Network for Single Image De-raining
+- DTDN: Dual-task De-raining Network
+
+### ICIP
+
+- DUAL RECURSIVE NETWORK FOR FAST IMAGE DERAINING
+- OND SYNTHETIC DATA: A BLIND DERAINING QUALITY ASSESSMENT METRIC TOWARDS AUTHENTIC RAIN IMAGE
+- Denoising Adversarial Networks for Rain Removal and Reflection Removal
+- RAIN STREAKS REMOVAL FOR SINGLE IMAGE VIA DIRECTIONAL TOTAL VARIATION REGULARIZATION
+- Single-image rain removal via multi-scale cascading image generation
+- UNSUPERVISED SINGLE IMAGE DERAINING WITH SELF-SUPERVISED CONSTRAINTS
+- SELF-REFINING DEEP SYMMETRY ENHANCED NETWORK FOR RAIN REMOVAL
+- DUAL-DOMAIN SINGLE IMAGE DE-RAINING USING CONDITIONAL GENERATIVE ADVERSARIAL NETWORK
+
 ### arxiv
 
 - Morphological Networks for Image De-raining
@@ -326,6 +418,25 @@ The following papers are related to low-level vision, including deblur, dehaze, 
 - Gated Context Aggregation Network for Image Dehazing and Deraining
   - Dongdong Chen, Mingming He, Qingnan Fan, Jing Liao, Liheng Zhang, Dongdong Hou, Lu Yuan, Gang Hua
 
+## Demoireing
+
+(keywords: demoireing, moire)
+
+## Reflection removal
+
+(keywords: reflection, deglare)
+
+### CVPR
+
+- Reflection Removal Using a Dual-Pixel Sensor
+- Single Image Reflection Removal Beyond Linearity
+- Fast Single Image Reflection Suppression via Convex Optimization
+- Single Image Reflection Removal Exploiting Misaligned Training Data and Network Enhancements
+
+### ICIP
+
+- Denoising Adversarial Networks for Rain Removal and Reflection Removal
+- Multi-Modal Reflection Removal Using Convolutional Neural Networks
 
 ## Image Restoration
 
@@ -366,6 +477,13 @@ The following papers are related to low-level vision, including deblur, dehaze, 
   - Yiwen Guo, Wangmeng Zuo, Changshui Zhang, Yurong Chen
 - Image Restoration by Combined Order Regularization with Optimal Spatial Adaptation
   - Sanjay Viswanath, Simon de Beco, Maxime Dahan, Muthuvel Arigovindan
+
+### ICIP
+
+- HIGH-DIMENSIONAL EMBEDDING DENOISING AUTOENCODING PRIOR FOR COLOR IMAGE RESTORATION
+- JOINT IMAGE RESTORATION AND MATCHING BASED ON HIERARCHICAL SPARSE REPRESENTATION
+- UNDERWATER IMAGE SYNTHESIS FROM RGB-D IMAGES AND ITS APPLICATION TO DEEP UNDERWATER IMAGE RESTORATION
+- 
 
 ## Super Resolution
 
@@ -430,6 +548,41 @@ The following papers are related to low-level vision, including deblur, dehaze, 
   - Riccardo de Lutio, Stefano D'Aronco, Jan Dirk Wegner, Konrad Schindler
 - Better to Follow, Follow to Be Better: Towards Precise Supervision of Feature Super-Resolution for Small Object Detection
   - Junhyug Noh, Wonho Bae, Wonhee Lee, Jinhwan Seo, Gunhee Kim
+
+### BMVC
+
+- Joint Multi-view Texture Super-resolution and Intrinsic Decomposition
+- Gated Multiple Feedback Network for Image Super-Resolution
+- Wide Activation for Efficient Image and Video Super-Resolution
+- Progressive Face Super-Resolution via Attention to Facial Landmark
+- Single Image Super-Resolution via CNN Architectures and TV-TV Minimization
+
+### ACM MM
+
+- FGLmser: A Flexible GAN-Lmser for Super-Resolution
+- Super Resolution Using Dual Path Connections
+
+### ICIP
+
+- IMAGE SUPER-RESOLUTION USING CNN OPTIMISED BY SELF-FEATURE LOSS
+- Learning a cascade regression for no-reference super-resolution image quality assessment
+- MULTI-LEVEL RESIDUAL UP-PROJECTION ACTIVATION NETWORK FOR IMAGE SUPER-RESOLUTION
+- LEARNING QUATERNION GRAPH FOR COLOR FACE IMAGE SUPER-RESOLUTION
+- NON-LOCAL HIERARCHICAL RESIDUAL NETWORK FOR SINGLE IMAGE SUPER-RESOLUTION
+- Guided CycleGAN via Semi-Dual Optimal Transport for Photo-Realistic Face Super-resolution
+- JITTERED EXPOSURES FOR LIGHT FIELD SUPER-RESOLUTION
+- FAST AND LIGHTWEIGHT IMAGE SUPER-RESOLUTION BASED ON DENSE RESIDUALS TWO-CHANNEL NETWORK
+- LEARNING SPATIAL AND SPECTRAL FEATURES VIA 2D-1D GENERATIVE ADVERSARIAL NETWORK FOR HYPERSPECTRAL IMAGE SUPER-RESOLUTION
+- FAST SUPER-RESOLUTION IN MRI IMAGES USING PHASE STRETCH TRANSFORM, ANCHORED POINT REGRESSION AND ZERO-DATA LEARNING
+- PRED: A PARALLEL NETWORK FOR HANDLING MULTIPLE DEGRADATIONS VIA SINGLE MODEL IN SINGLE IMAGE SUPER-RESOLUTION
+- GAN-BASED VIDEO SUPER-RESOLUTION WITH DIRECT REGULARIZED INVERSION OF THE LOW-RESOLUTION FORMATION MODEL
+- LEARNED MULTIMODAL CONVOLUTIONAL SPARSE CODING FOR GUIDED IMAGE SUPER-RESOLUTION
+- MULTI-FRAME SUPER RESOLUTION WITH DEEP RESIDUAL LEARNING ON FLOW REGISTERED NON-INTEGER PIXEL IMAGES
+- SINGLE IMAGE SUPER-RESOLUTION VIA CASCADED PARALLEL MULTISIZE RECEPTIVE FIELD
+- IMAGE SUPER-RESOLUTION USING COMPLEX DENSE BLOCK ON GENERATIVE ADVERSARIAL NETWORKS
+- IMPROVING SUPER RESOLUTION METHODS VIA INCREMENTAL RESIDUAL LEARNING
+- LEARNING SUPER-RESOLUTION COHERENT FACIAL FEATURES USING NONLINEAR MULTISET PLS FOR LOW-RESOLUTION FACE RECOGNITION
+
 
 ### arxiv
 
@@ -497,6 +650,19 @@ The following papers are related to low-level vision, including deblur, dehaze, 
   - Ziyi Shen, Wenguan Wang, Xiankai Lu, Jianbing Shen, Haibin Ling, Tingfa Xu, Ling Shao
 - Unconstrained Motion Deblurring for Dual-Lens Cameras
   - M. R. Mahesh Mohan, Sharath Girish, A. N. Rajagopalan
+
+### ACM MM
+
+- Tell Me Where It is Still Blurry: Adversarial Blurred Region Mining and Refining
+
+### ICIP
+
+- ADVERSARIAL REPRESENTATION LEARNING FOR DYNAMIC SCENE DEBLURRING: A SIMPLE, FAST AND ROBUST APPROACH
+- UPDCNN: A NEW SCHEME FOR IMAGE UPSAMPLING AND DEBLURRING USING A DEEP CONVOLUTIONAL NEURAL NETWORK
+- LEARNED IMAGE DEBLURRING BY UNFOLDING A PROXIMAL INTERIOR POINT ALGORITHM
+- EFFICIENT MOTION DEBLURRING WITH FEATURE TRANSFORMATION AND SPATIAL ATTENTION
+- Joint Demosaicking and Blind Deblurring Using Deep Convolutional Neural Network
+- ACCELERATING REDUNDANT DCT FILTERING FOR DEBLURRING AND DENOISING
 
 ### arxiv
 
