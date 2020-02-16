@@ -519,7 +519,11 @@ A lot of interesting papers are not yet covered by me in the arxiv sections.
 
 ## Demoireing
 
-(keywords: demoireing, moire)
+(keywords: demoireing, moire, Moiré)
+
+### ICCV19
+
+- Mop Moire Patterns Using MopNet
 
 ## Reflection removal
 
