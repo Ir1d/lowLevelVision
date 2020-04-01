@@ -396,6 +396,8 @@ A lot of interesting papers are not yet covered by me in the arxiv sections.
   - Ruoteng Li, Robby T. Tan, Loong-Fah Cheong, Angelica I. Aviles-Rivero, Qingnan Fan, Carola-Bibiane Schonlieb
 - Physics-Based Rendering for Improving Robustness to Rain
   - Shirsendu Sukanta Halder, Jean-Francois Lalonde, Raoul de Charette
+- ERL-Net: Entangled Representation Learning for Single Image De-Raining  
+
 
 
 ### BMVC19
