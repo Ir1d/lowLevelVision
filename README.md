@@ -18,8 +18,10 @@ A lot of interesting papers are not yet covered by me in the arxiv sections.
 - [x] [ICIP 2019](https://cmsworkshops.com/ICIP2019/Papers/TechnicalProgram_MS.asp)
 - [x] [ICME 2019](https://www.icme2019.org/conf_schedule)
 - [x] [ICCV 2019](http://openaccess.thecvf.com/ICCV2019.py)
+- [ ] NeurIPS 2019
 - [x] [AAAI 2020](https://aaai.org/Conferences/AAAI-20/wp-content/uploads/2020/01/AAAI-20-Accepted-Paper-List.pdf)
 - [x] [CVPR 2020](http://openaccess.thecvf.com/CVPR2020.py)
+ 
 
 `[Note]`: 
 
@@ -596,6 +598,10 @@ A lot of interesting papers are not yet covered by me in the arxiv sections.
 
 - Denoising Adversarial Networks for Rain Removal and Reflection Removal
 - Multi-Modal Reflection Removal Using Convolutional Neural Networks
+
+### NeurIPS19
+
+- Reflection Separation using a Pair of Unpolarized and Polarized Images
 
 ### CVPR20
 
