@@ -8,6 +8,8 @@ A lot of interesting papers are not yet covered by me in the arxiv sections.
 
 ## TODO
 
+<details>
+<summary>Supported Conference List</summary>
 - [x] [IJCAI 2019](https://www.ijcai19.org/accepted-papers.html)
 - [x] [ICLR 2019](https://openreview.net/group?id=ICLR.cc/2019/Conference)
 - [x] [ICML 2019](https://icml.cc/Conferences/2019/Schedule?type=Poster)
@@ -22,7 +24,9 @@ A lot of interesting papers are not yet covered by me in the arxiv sections.
 - [x] [AAAI 2020](https://aaai.org/Conferences/AAAI-20/wp-content/uploads/2020/01/AAAI-20-Accepted-Paper-List.pdf)
 - [x] [CVPR 2020](http://openaccess.thecvf.com/CVPR2020.py)
 - [x] [ECCV 2020](https://www.ecva.net/papers.php)
- 
+- [x] [ACM MM 2020](https://2020.acmmm.org/main-track-list.html)
+
+</details>
 
 `[Note]`: 
 
@@ -128,6 +132,11 @@ A lot of interesting papers are not yet covered by me in the arxiv sections.
 - A Decoupled Learning Scheme for Real-world Burst Denoising from Raw Images
 - Robust and On-the-fly Dataset Denoising for Image Classification
 - Spatial-Adaptive Network for Single Image Denoising
+
+### ACM MM20
+
+- Temporal Denoising Mask Synthesis Network for Learning Blind Video Temporal Consistency
+- Differentiable Manifold Reconstruction for Point Cloud Denoising
 
 ### arxiv
 
@@ -273,6 +282,12 @@ A lot of interesting papers are not yet covered by me in the arxiv sections.
 - Towards Precise Completion of Deformable Shapes
 - Detail Preserved Point Cloud Completion via Separated Feature Aggregation
 
+### ACM MM 20
+
+- Image Inpainting Based on Multi-frequency Probabilistic Inference Model
+- MMFL: Multimodal Fusion Learning for Text-Guided Image Inpainting
+- Text-Guided Neural Image Inpainting
+
 ### arxiv
 
 - Coherent Semantic Attention for Image Inpainting
@@ -344,6 +359,11 @@ A lot of interesting papers are not yet covered by me in the arxiv sections.
 - YOLO in the Dark - Domain Adaptation Method for Merging Multiple Models -
 - Towards Practical and Efficient High-Resolution HDR Deghosting with CNN
 
+### ACM MM20
+
+- Fast Enhancement for Non-Uniform Illumination Images using Light-weight CNNs
+- NuI-Go: Recursive Non-local Encoder-Decoder Network for Retinal Image Non-uniform Illumination Removal
+
 ### arxiv
 
 - [Kindling the Darkness: A Practical Low-light Image Enhancer](https://arxiv.org/pdf/1905.04161v1.pdf)
@@ -413,6 +433,11 @@ A lot of interesting papers are not yet covered by me in the arxiv sections.
 
 - Physics-based Feature Dehazing Networks
 - HardGAN: A Haze-Aware Representation Distillation GAN for Single Image Dehazing
+
+### ACM MM20
+
+- Discrete Haze Level Dehazing Network
+- Nighttime Dehazing with a Synthetic Benchmark
 
 ### arxiv
 
@@ -525,6 +550,12 @@ A lot of interesting papers are not yet covered by me in the arxiv sections.
 - Beyond Monocular Deraining: Stereo Image Deraining via Semantic Understanding
 - Rethinking Image Deraining via Rain Streaks and Vapors
 
+### ACM MM20
+
+- Single Image Deraining via Scale-space Invariant Attention Neural Network
+- Joint Self-Attention and Scale-Aggregation for Self-Calibrated Deraining Network
+- Deep Cross-scale Fusion Network for Single Image Rain Removal
+
 ### arxiv
 
 - Morphological Networks for Image De-raining
@@ -613,6 +644,10 @@ A lot of interesting papers are not yet covered by me in the arxiv sections.
 - Real-World Blur Dataset for Learning and Benchmarking Deblurring Algorithms
 - OID: Outlier Identifying and Discarding in Blind Image Deblurring
 - Enhanced Sparse Model for Blind Deblurring
+
+### ACM MM20
+
+- ALANET: Adaptive Latent Attention Network for Joint Video Deblurring and Interpolation
 
 ### arxiv
 
@@ -908,6 +943,20 @@ A lot of interesting papers are not yet covered by me in the arxiv sections.
 - Fast Adaptation to Super-Resolution Networks via Meta-Learning
 - Cross-Attention in Coupled Unmixing Nets for Unsupervised Hyperspectral Super-Resolution
 
+### ACM MM20
+
+- When Bitstream Prior Meets Deep Prior: Compressed Video Super-resolution with Learning from Decoding
+- Space-Time Video Super-Resolution using Temporal Profiles
+- When Bitstream Prior Meets Deep Prior: Compressed Video Super-resolution with Learning from Decoding
+- Depth Super-Resolution via Deep Controllable Slicing Network
+- Light Field Super-resolution via Attention-Guided Fusion of Hybrid Lenses
+- Video Super-Resolution using Multi-scale Pyramid 3D Convolutional Networks
+- PCA-SRGAN: Incremental Orthogonal Projection Discrimination for Face Super-resolution
+- Dual-view Attention Networks for Single Image Super-Resolution
+- Towards Lighter and Faster: Learning Wavelets Progressively for Image Super-Resolution
+- Space-Time Video Super-Resolution using Temporal Profiles
+- Memory Recursive Network for Single Image Super-Resolution
+- When Bitstream Prior Meets Deep Prior: Compressed Video Super-resolution with Learning from Decoding
 
 ## Image Restoration
 
@@ -969,7 +1018,12 @@ A lot of interesting papers are not yet covered by me in the arxiv sections.
 - Fully Trainable and Interpretable Non-Local Sparse Models for Image Restoration
 - Learning Enriched Features for Real Image Restoration and Enhancement
 
+### ACM MM20
+
+- Attention Cube Network for Image Restoration
+
 ### arxiv
+
 
 - Space-variant Generalized Gaussian Regularization for Image Restoration
   - Alessandro Lanza, Serena Morigi, Monica Pragliola, Fiorella Sgallari
