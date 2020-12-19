@@ -21,6 +21,7 @@ A lot of interesting papers are not yet covered by me in the arxiv sections.
 - [ ] NeurIPS 2019
 - [x] [AAAI 2020](https://aaai.org/Conferences/AAAI-20/wp-content/uploads/2020/01/AAAI-20-Accepted-Paper-List.pdf)
 - [x] [CVPR 2020](http://openaccess.thecvf.com/CVPR2020.py)
+- [x] [ECCV 2020](https://www.ecva.net/papers.php)
  
 
 `[Note]`: 
@@ -112,6 +113,21 @@ A lot of interesting papers are not yet covered by me in the arxiv sections.
 - A Physics-Based Noise Formation Model for Extreme Low-Light Raw Denoising
 - Transfer Learning From Synthetic to Real-Noise Denoising With Adaptive Instance Normalization
 - Variational-EM-Based Deep Learning for Noise-Blind Image Deblurring
+
+### ECCV20
+
+- Reconstructing the Noise Variance Manifold for Image Denoising
+- Dual Adversarial Network: Toward Real-world Noise Removal and Noise Generation
+- Learning Noise-Aware Encoder-Decoder from Noisy Labels by Alternating Back-Propagation for Saliency Detection
+- Learning Camera-Aware Noise Models
+- Burst Denoising via Temporally Shifted Wavelet Transforms
+- Unpaired Learning of Deep Image Denoising
+- Practical Deep Raw Image Denoising on Mobile Devices
+- Stochastic Frequency Masking to Improve Super-Resolution and Denoising Networks
+- Spatial Hierarchy Aware Residual Pyramid Network for Time-of-Flight Depth Denoising
+- A Decoupled Learning Scheme for Real-world Burst Denoising from Raw Images
+- Robust and On-the-fly Dataset Denoising for Image Classification
+- Spatial-Adaptive Network for Single Image Denoising
 
 ### arxiv
 
@@ -235,6 +251,28 @@ A lot of interesting papers are not yet covered by me in the arxiv sections.
 - Recurrent Feature Reasoning for Image Inpainting
 - 3D Photography Using Context-Aware Layered Depth Inpainting
 
+### ECCV20
+
+- Rethinking Image Inpainting via a Mutual Encoder-Decoder with Feature Equalizations
+- Short-Term and Long-Term Context Aggregation Network for Video Inpainting
+- Learning Object Placement by Inpainting for Compositional Data Augmentation
+- Learning Joint Spatial-Temporal Transformations for Video Inpainting
+- High-Resolution Image Inpainting with Iterative Confidence Feedback and Guided Upsampling
+- DVI: Depth Guided Video Inpainting for Autonomous Driving
+- VCNet: A Robust Approach to Blind Image Inpainting
+- Guidance and Evaluation: Semantic-Aware Image Inpainting for Mixed Scenes
+- Proposal-based Video Completion
+- Synthesis and Completion of Facades from Satellite Imagery
+- SoftPoolNet: Shape Descriptor for Point Cloud Completion and Classification
+- Multimodal Shape Completion via Conditional Generative Adversarial Networks
+- Weakly-supervised 3D Shape Completion in the Wild
+- GRNet: Gridding Residual Network for Dense Point Cloud Completion
+- Flow-edge Guided Video Completion
+- Non-Local Spatial Propagation Network for Depth Completion
+- Sparse-to-Dense Depth Completion Revisited: Sampling Strategy and Graph Construction
+- Towards Precise Completion of Deformable Shapes
+- Detail Preserved Point Cloud Completion via Separated Feature Aggregation
+
 ### arxiv
 
 - Coherent Semantic Attention for Image Inpainting
@@ -254,7 +292,7 @@ A lot of interesting papers are not yet covered by me in the arxiv sections.
 
 ## Lowlight Enhancement
 
-(keywords: lowlight, underexposed, illumination, contrast enhancement, low light, dark)
+(keywords: lowlight, underexposed, illumination, contrast enhancement, low light, dark, HDR)
 
 ### CVPR19
 
@@ -295,6 +333,16 @@ A lot of interesting papers are not yet covered by me in the arxiv sections.
 - Zero-Reference Deep Curve Estimation for Low-Light Image Enhancement
 - Learning to Restore Low-Light Images via Decomposition-and-Enhancement
 - From Fidelity to Perceptual Quality: A Semi-Supervised Approach for Low-Light Image Enhancement
+
+### ECCV20
+
+- Learning Flow-based Feature Warping for Face Frontalization with Illumination Inconsistent Supervision
+- Object-based Illumination Estimation with Rendering-aware Neural Networks
+- Low Light Video Enhancement using Synthetic Data Produced with an Intermediate Domain Mapping
+- Image Classification in the Dark using Quanta Image Sensors
+- Learning to See in the Dark with Events
+- YOLO in the Dark - Domain Adaptation Method for Merging Multiple Models -
+- Towards Practical and Efficient High-Resolution HDR Deghosting with CNN
 
 ### arxiv
 
@@ -360,6 +408,11 @@ A lot of interesting papers are not yet covered by me in the arxiv sections.
 - Domain Adaptation for Image Dehazing
 - Distilling Image Dehazing With Heterogeneous Task Imitation
 - BidNet: Binocular Image Dehazing Without Explicit Disparity Estimation
+
+### ECCV20
+
+- Physics-based Feature Dehazing Networks
+- HardGAN: A Haze-Aware Representation Distillation GAN for Single Image Dehazing
 
 ### arxiv
 
@@ -466,6 +519,12 @@ A lot of interesting papers are not yet covered by me in the arxiv sections.
 - Multi-Scale Progressive Fusion Network for Single Image Deraining
 - Detail-recovery Image Deraining via Context Aggregation Networks
 
+### ECCV20
+
+- Rethinking Image Deraining via Rain Streaks and Vapors
+- Beyond Monocular Deraining: Stereo Image Deraining via Semantic Understanding
+- Rethinking Image Deraining via Rain Streaks and Vapors
+
 ### arxiv
 
 - Morphological Networks for Image De-raining
@@ -542,6 +601,19 @@ A lot of interesting papers are not yet covered by me in the arxiv sections.
 - Deblurring Using Analysis-Synthesis Networks Pair
 
 
+### ECCV20
+
+- Efficient Spatio-Temporal Recurrent Neural Network for Video Deblurring
+- Multi-Temporal Recurrent Neural Networks For Progressive Non-Uniform Single Image Deblurring With Incremental Temporal Training
+- Learning Event-Driven Video Deblurring and Interpolation
+- Defocus Deblurring Using Dual-Pixel Data
+- Rethinking the Defocus Blur Detection Problem and A Real-Time Deep DBD Model
+- Defocus Blur Detection via Depth Distillation
+- End-to-end Interpretable Learning of Non-blind Image Deblurring
+- Real-World Blur Dataset for Learning and Benchmarking Deblurring Algorithms
+- OID: Outlier Identifying and Discarding in Blind Image Deblurring
+- Enhanced Sparse Model for Blind Deblurring
+
 ### arxiv
 
 - Blind Image Deblurring Using Patch-Wise Minimal Pixels Regularization
@@ -579,6 +651,11 @@ A lot of interesting papers are not yet covered by me in the arxiv sections.
 
 - Image Demoireing with Learnable Bandpass Filters
 
+### ECCV20
+
+- Wavelet-Based Dual-Branch Network for Image Demoiréing
+- FHDe²Net: Full High Definition Demoireing Network
+
 ## Reflection removal
 
 (keywords: reflection, deglare)
@@ -609,6 +686,11 @@ A lot of interesting papers are not yet covered by me in the arxiv sections.
 - Reflection Scene Separation From a Single Image
 - Single Image Reflection Removal Through Cascaded Refinement
 - Single Image Reflection Removal With Physically-Based Training Images
+
+### ECCV20
+
+- Reflection Backdoor: A Natural Backdoor Attack on Deep Neural Networks
+- Reflection Separation via Multi-bounce Polarization State Tracing
 
 ## Super Resolution
 
@@ -791,6 +873,42 @@ A lot of interesting papers are not yet covered by me in the arxiv sections.
 - Robust Reference-Based Super-Resolution With Similarity-Aware Deformable Convolution
 - Unified Dynamic Convolutional Network for Super-Resolution With Variational Degradations
 
+### ECCV20
+
+- Binarized Neural Network for Single Image Super Resolution
+- Feature Representation Matters: End-to-End Learning for Reference-based Image Super-resolution
+- Semantic Object Prediction and Spatial Sound Super-Resolution with Binaural Sounds
+- Face Super-Resolution Guided by 3D Facial Priors
+- SRFlow: Learning the Super-Resolution Space with Normalizing Flow
+- Across Scales & Across Dimensions: Temporal Super-Resolution using Deep Internal Learning
+- AR-Net: Adaptive Frame Resolution for Efficient Action Recognition
+- Texture Hallucination for Large-Factor Painting Super-Resolution
+- Component Divide-and-Conquer for Real-World Image Super-Resolution
+- 3D Human Shape and Pose from a Single Low-Resolution Image with Self-Supervised Learning
+- MuCAN: Multi-Correspondence Aggregation Network for Video Super-Resolution
+- Scene Text Image Super-resolution in the wild
+- CooGAN: A Memory-Efficient Framework for High-Resolution Facial Attribute Editing
+- Single Image Super-Resolution via a Holistic Attention Network
+- Video Super-Resolution with Recurrent Structure-Detail Network
+- PlugNet: Degradation Aware Scene Text Recognition Supervised by a Pluggable Super-Resolution Unit
+- Resolution Switchable Networks for Runtime Efficient Image Recognition
+- Generate to Adapt: Resolution Adaption Network for Surveillance Face Recognition
+- Stochastic Frequency Masking to Improve Super-Resolution and Denoising Networks
+- Zero-Shot Image Super-Resolution with Depth Guided Internal Degradation Learning
+- High-Resolution Image Inpainting with Iterative Confidence Feedback and Guided Upsampling
+- LatticeNet: Towards Lightweight Image Super-resolution with Lattice Block
+- Spatial-Angular Interaction for Light Field Image Super-Resolution
+- VarSR: Variational Super-Resolution Network for Very Low Resolution Images
+- Learning with Privileged Information for Efficient Image Super-Resolution
+- Towards Content-Independent Multi-Reference Super-Resolution: Adaptive Pattern Matching and Feature Aggregation
+- PAMS: Quantized Super-Resolution via Parameterized Max Scale
+- Journey Towards Tiny Perceptual Super-Resolution
+- Prediction and Recovery for Adaptive Low-Resolution Person Re-Identification
+- Mining self-similarity: Label super-resolution with epitomic representations
+- Fast Adaptation to Super-Resolution Networks via Meta-Learning
+- Cross-Attention in Coupled Unmixing Nets for Unsupervised Hyperspectral Super-Resolution
+
+
 ## Image Restoration
 
 ### ICLR19
@@ -837,6 +955,19 @@ A lot of interesting papers are not yet covered by me in the arxiv sections.
 - EventSR: From Asynchronous Events to Image Reconstruction, Restoration, and Super-Resolution via End-to-End Adversarial Learning
 - Disparity-Aware Domain Adaptation in Stereo Image Restoration
 - Learning Invariant Representation for Unsupervised Image Restoration
+
+### ECCV20
+
+- Learning Disentangled Feature Representation for Hybrid-distorted Image Restoration
+- Exploiting Deep Generative Prior for Versatile Image Restoration and Manipulation
+- Blind Face Restoration via Deep Multi-scale Component Dictionaries
+- PIPAL: a Large-Scale Image Quality Assessment Dataset for Perceptual Image Restoration
+- Stacking Networks Dynamically for Image Restoration Based on the Plug-and-Play Framework
+- LIRA: Lifelong Image Restoration from Unknown Blended Distortions
+- Interactive Multi-Dimension Modulation with Dynamic Controllable Residual Learning for Image Restoration
+- Microscopy Image Restoration with Deep Wiener-Kolmogorov Filters
+- Fully Trainable and Interpretable Non-Local Sparse Models for Image Restoration
+- Learning Enriched Features for Real Image Restoration and Enhancement
 
 ### arxiv
 
